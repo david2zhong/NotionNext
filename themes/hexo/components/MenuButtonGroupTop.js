@@ -3,6 +3,7 @@ import Link from 'next/link'
 import { useGlobal } from '@/lib/global'
 import CONFIG_HEXO from '../config_hexo'
 
+// 顶部菜单栏
 const MenuButtonGroupTop = (props) => {
   const { customNav } = props
   const { locale } = useGlobal()
